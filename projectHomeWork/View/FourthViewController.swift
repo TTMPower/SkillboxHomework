@@ -38,7 +38,6 @@ class FourthViewController: UIViewController, UITableViewDelegate {
         currentWeather.numberOfLines = 0
         currentWeather.font = UIFont.boldSystemFont(ofSize: 100)
         
-        
         Networking.networksingletop.getDataFromeRealm()
         view.backgroundColor = .white
         view.addSubview(city)
